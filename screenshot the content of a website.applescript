@@ -1,0 +1,1 @@
+set p to path to desktopset p to POSIX path of pset p to p & "/"tell application "Firefox"	activate	repeat with i from 1 to 10		set theCommand to ("screencapture -t jpg " & p & "opengl/book" & i & ".jpg")		do shell script theCommand		tell application "System Events"			key code 49 -- space		end tell	end repeatend tell

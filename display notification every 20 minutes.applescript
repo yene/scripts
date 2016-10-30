@@ -1,0 +1,1 @@
+(* Export as application with stay-open turned on. *)on idle	display notification "Close eyes and breath in and out 4 times." with title "Give your eyes a break"	return 60 * 20end idle

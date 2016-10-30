@@ -1,0 +1,1 @@
+tell application "System Events"	delay 2	keystroke "password"end tell
